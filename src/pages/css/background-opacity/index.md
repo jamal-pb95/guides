@@ -3,13 +3,23 @@ title: Background Opacity
 ---
 ## Background Opacity
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/css/background-opacity/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The opacity property specifies the opacity/transparency of an element.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+```
+img {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+```
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+
+[MDN Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/opacity)|[W3schools](https://www.w3schools.com/css/css_image_transparency.asp)
+
 
 
